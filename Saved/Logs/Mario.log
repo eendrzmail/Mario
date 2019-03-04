@@ -1,4 +1,4 @@
-﻿Log file open, 03/01/19 23:14:27
+﻿Log file open, 03/04/19 11:50:02
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Mario
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.176332
+LogStats: Stats thread started at 0.174940
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -92,7 +92,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.607s to configure plugins.
+LogStreaming: Display: Took  0.375s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -146,478 +146,209 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.108s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.01-22.14.27:904][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.01-22.14.27:904][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.01-22.14.27:967][  0]LogHAL: Display: Platform has ~ 8 GB [8526303232 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.01-22.14.27:967][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.01-22.14.27:967][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.01-22.14.27:968][  0]LogInit: Computer: DEAD
-[2019.03.01-22.14.27:968][  0]LogInit: User: DEAD
-[2019.03.01-22.14.27:968][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.01-22.14.27:968][  0]LogInit: High frequency timer resolution =3.124091 MHz
-[2019.03.01-22.14.27:968][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.03.01-22.14.27:968][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.01-22.14.27:968][  0]LogMemory: Process Physical Memory: 101.01 MB used, 101.01 MB peak
-[2019.03.01-22.14.27:968][  0]LogMemory: Process Virtual Memory: 92.47 MB used, 92.47 MB peak
-[2019.03.01-22.14.27:968][  0]LogMemory: Physical Memory: 4185.05 MB used,  3946.27 MB free, 8131.32 MB total
-[2019.03.01-22.14.27:968][  0]LogMemory: Virtual Memory: 497.39 MB used,  3946.27 MB free, 134217728.00 MB total
-[2019.03.01-22.14.27:988][  0]LogInit: Using OS detected language (pl-PL).
-[2019.03.01-22.14.27:988][  0]LogInit: Using OS detected locale (pl-PL).
-[2019.03.01-22.14.27:989][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2019.03.01-22.14.27:991][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
-[2019.03.01-22.14.27:991][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.01-22.14.28:018][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.01-22.14.28:018][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.01-22.14.28:191][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.01-22.14.28:191][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.01-22.14.28:207][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2019.03.01-22.14.28:207][  0]LogD3D11RHI:       3052/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.03.01-22.14.28:208][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.01-22.14.28:208][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.01-22.14.28:208][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.01-22.14.28:212][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.01-22.14.28:212][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.01-22.14.28:212][  0]LogWindows: EnumDisplayDevices:
-[2019.03.01-22.14.28:212][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2019.03.01-22.14.28:212][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.03.01-22.14.28:212][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.03.01-22.14.28:213][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.03.01-22.14.28:213][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.03.01-22.14.28:213][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.03.01-22.14.28:213][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2019.03.01-22.14.28:213][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2019.03.01-22.14.28:213][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.2.1 (internal:23.20.15017.3010, unified:23.20.15017.3010)
-[2019.03.01-22.14.28:213][  0]LogD3D11RHI:      Driver Date: 1-31-2018
-[2019.03.01-22.14.28:213][  0]LogRHI: Texture pool is 2136 MB (70% of 3052 MB)
-[2019.03.01-22.14.28:233][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.01-22.14.28:245][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2019.03.01-22.14.28:247][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Unreal Engine Projects/Mario/Intermediate/Shaders/WorkingDirectory/13276/).
-[2019.03.01-22.14.28:247][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DEAD/AppData/Local/Temp/UnrealShaderWorkingDir/14FBD0394985CDF19CE6AD85485AF794/'.
-[2019.03.01-22.14.28:604][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.01-22.14.28:618][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.01-22.14.28:631][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.01-22.14.28:646][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.01-22.14.28:660][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.01-22.14.28:674][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.01-22.14.28:687][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.01-22.14.28:701][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.01-22.14.28:707][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.01-22.14.28:799][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.01-22.14.28:864][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.01-22.14.28:864][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.01-22.14.28:890][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.01-22.14.28:890][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.01-22.14.28:904][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.01-22.14.28:918][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.01-22.14.28:930][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.01-22.14.28:944][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.01-22.14.28:954][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.01-22.14.28:954][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.01-22.14.28:992][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.01-22.14.28:992][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.01-22.14.28:992][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.01-22.14.29:785][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.01-22.14.32:015][  0]LogDerivedDataCache: Loaded boot cache 2.23s 71MB C:/Users/DEAD/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.01-22.14.32:015][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DEAD/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.01-22.14.32:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Engine Projects/Mario/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.01-22.14.32:015][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.01-22.14.32:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Engine Projects/Mario/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.01-22.14.32:016][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.01-22.14.32:035][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.01-22.14.32:046][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DEAD/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.01-22.14.32:046][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.01-22.14.32:046][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.01-22.14.32:068][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.01-22.14.32:069][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.01-22.14.32:127][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.01-22.14.34:644][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
-[2019.03.01-22.14.35:102][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.01-22.14.35:516][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.01-22.14.35:518][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.01-22.14.35:518][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.01-22.14.35:518][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.01-22.14.35:518][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.01-22.14.35:780][  0]LogNetVersion: Mario 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3829394959)
-[2019.03.01-22.14.38:380][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.242718 seconds
-[2019.03.01-22.14.38:386][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.03.01-22.14.38:386][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.03.01-22.14.38:386][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.01-22.14.53:318][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.01-22.14.53:333][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.01-22.14.54:288][  0]SourceControl: Source control is disabled
-[2019.03.01-22.14.57:417][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.01-22.14.57:469][  0]LogOcInput: OculusInput pre-init called
-[2019.03.01-22.14.57:615][  0]LogEngine: Initializing Engine...
-[2019.03.01-22.14.57:616][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.01-22.14.57:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.01-22.14.57:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.01-22.14.57:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.01-22.14.57:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.01-22.14.58:497][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.01-22.14.58:529][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.01-22.14.58:536][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.14.58:551][  0]LogInit: FAudioDevice initialized.
-[2019.03.01-22.14.58:551][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.01-22.14.58:808][  0]LogDerivedDataCache: Saved boot cache 0.26s 71MB C:/Users/DEAD/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.01-22.14.58:818][  0]LogInit: Texture streaming: Enabled
-[2019.03.01-22.14.59:035][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.01-22.14.59:197][  0]LogInit: Transaction tracking system initialized
-[2019.03.01-22.14.59:211][  0]BlueprintLog: New page: Editor Load
-[2019.03.01-22.14.59:368][  0]LocalizationService: Localization service is disabled
-[2019.03.01-22.15.00:397][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.01-22.15.00:397][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.01-22.15.00:420][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Content/' took 0.06s
-[2019.03.01-22.15.00:420][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.01-22.15.00:420][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.01-22.15.00:420][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.01-22.15.00:420][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.01-22.15.00:420][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.01-22.15.00:938][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Engine Projects/Mario/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.01-22.15.00:997][  0]LightingResults: New page: Lighting Build
-[2019.03.01-22.15.00:999][  0]MapCheck: New page: Map Check
-[2019.03.01-22.15.00:999][  0]LightingResults: New page: Lighting Build
-[2019.03.01-22.15.06:537][  0]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.15.06:782][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.01-22.15.06:828][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.01-22.15.06:876][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47,656ms to complete.
-[2019.03.01-22.15.06:876][  0]LogFileHelpers: Loading map 'Map1' took 5.938
-[2019.03.01-22.15.06:975][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.01-22.15.08:503][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.15.08:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.15.08:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.15.08:572][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.15.08:659][  0]LogCollectionManager: Loaded 0 collections in 0.000822 seconds
-[2019.03.01-22.15.08:785][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Saved/Collections/' took 0.01s
-[2019.03.01-22.15.08:785][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Content/Developers/DEAD/Collections/' took 0.01s
-[2019.03.01-22.15.08:785][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Content/Collections/' took 0.01s
-[2019.03.01-22.15.08:785][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.01-22.15.08:796][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2581 classes and 608 folders.
-[2019.03.01-22.15.08:962][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.01-22.15.10:193][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.01-22.15.10:375][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.03.01-22.15.13:331][  0]LogSlate: Took 0.020433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.01-22.15.13:353][  0]LogSlate: Took 0.019767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.01-22.15.13:440][  0]LogSlate: Took 0.021628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.01-22.15.14:932][  0]LogRenderer: Reallocating scene render targets to support 748x576 Format 10 NumSamples 1 (Frame:1).
-[2019.03.01-22.15.16:774][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.03.01-22.15.16:774][  0]LogLoad: (Engine Initialization) Total time: 52.41 seconds
-[2019.03.01-22.15.16:774][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.01-22.15.16:980][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.01-22.15.17:307][  0]LogSlate: Took 0.024915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.01-22.15.17:662][  2]LogAssetRegistry: Asset discovery search completed in 43.0396 seconds
-[2019.03.01-22.15.17:713][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.01-22.15.17:713][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2019.03.01-22.15.26:185][983]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.15.27:746][143]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content' is outside repository
-[2019.03.01-22.15.27:883][143]EditorErrors: Warning: No assets to check in!
-[2019.03.01-22.15.29:902][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.15.31:709][567]LogSlate: Window 'Message Log' being destroyed
-[2019.03.01-22.15.31:713][567]LogSlate: Window 'Message Log' being destroyed
-[2019.03.01-22.15.42:248][707]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube27)
-[2019.03.01-22.15.47:478][707]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.15.58:450][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.15.58:525][657]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.15.58:772][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.15.59:508][657]PIE: New page: PIE session: Map1 (2 mar 2019, 00:15:58)
-[2019.03.01-22.15.59:508][657]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.15.59:997][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.489521s)
-[2019.03.01-22.15.59:998][657]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.16.00:120][657]LogPlayLevel: PIE: World Init took: (0.122467s)
-[2019.03.01-22.16.00:285][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.777275s)
-[2019.03.01-22.16.00:784][657]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.16.00:794][657]LogInit: FAudioDevice initialized.
-[2019.03.01-22.16.01:726][657]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.16.03:211][657]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.16.03
-[2019.03.01-22.16.03:504][657]LogWorld: Bringing up level for play took: 0.796159
-[2019.03.01-22.16.04:833][657]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
-[2019.03.01-22.16.05:780][657]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 6,475
-[2019.03.01-22.16.12:996][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.16.13:120][151]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.16.13:167][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.16.13:206][152]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.03.01-22.16.13:685][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.16.13:793][222]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.16.13:812][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.16.13:812][222]PIE: New page: PIE session: Map1 (2 mar 2019, 00:16:13)
-[2019.03.01-22.16.13:812][222]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.16.13:817][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004497s)
-[2019.03.01-22.16.13:817][222]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.16.13:817][222]LogPlayLevel: PIE: World Init took: (0.000753s)
-[2019.03.01-22.16.13:817][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.005397s)
-[2019.03.01-22.16.13:843][222]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.16.13:852][222]LogInit: FAudioDevice initialized.
-[2019.03.01-22.16.13:885][222]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.16.13:888][222]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.16.13
-[2019.03.01-22.16.13:889][222]LogWorld: Bringing up level for play took: 0.002967
-[2019.03.01-22.16.13:902][222]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0,597
-[2019.03.01-22.16.18:794][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.16.18:823][754]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.16.18:847][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.16.18:893][758]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.03.01-22.16.39:913][929]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.16.41:383][103]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content' is outside repository
-[2019.03.01-22.16.41:454][103]EditorErrors: Warning: No assets to check in!
-[2019.03.01-22.16.43:056][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.16.53:791][367]LogSlate: Window 'Source Control Login' being destroyed
-[2019.03.01-22.17.16:484][946]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2019.03.01-22.17.16:538][946]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.17.17:488][ 36]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.17.17:507][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.17.17:508][ 36]PIE: New page: PIE session: Map1 (2 mar 2019, 00:17:17)
-[2019.03.01-22.17.17:508][ 36]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.17.17:524][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016286s)
-[2019.03.01-22.17.17:525][ 36]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.17.17:525][ 36]LogPlayLevel: PIE: World Init took: (0.000815s)
-[2019.03.01-22.17.17:525][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.017236s)
-[2019.03.01-22.17.17:550][ 36]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.17.17:559][ 36]LogInit: FAudioDevice initialized.
-[2019.03.01-22.17.17:591][ 36]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.17.17:594][ 36]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.17.17
-[2019.03.01-22.17.17:594][ 36]LogWorld: Bringing up level for play took: 0.003004
-[2019.03.01-22.17.17:608][ 36]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0,303
-[2019.03.01-22.17.18:134][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.17.18:166][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.17.18:189][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.17.18:241][101]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.03.01-22.17.18:924][183]LogEditorViewport: Clicking on Actor (LMB): brick_C (brick)
-[2019.03.01-22.17.25:851][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/EngineLightProfiles: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/EngineLightProfiles' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository
-[2019.03.01-22.17.31:650][531]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository
-[2019.03.01-22.17.33:897][717]LogSlate: Took 0.056382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.01-22.17.33:931][717]LogAssetEditorManager: Opening Asset editor for DestructibleMesh /Game/Assets/Textures/Cube_DM.Cube_DM
-[2019.03.01-22.17.34:526][717]LogRenderer: Reallocating scene render targets to support 792x868 Format 10 NumSamples 1 (Frame:1).
-[2019.03.01-22.17.36:494][927]LogSlate: Window 'Cube_DM' being destroyed
-[2019.03.01-22.17.36:498][927]LogSlate: Window 'Cube_DM' being destroyed
-[2019.03.01-22.17.38:065][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.17.38:238][ 69]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Textures/Cube.Cube
-[2019.03.01-22.17.40:247][ 69]LogRenderer: Reallocating scene render targets to support 952x868 Format 10 NumSamples 1 (Frame:1).
-[2019.03.01-22.17.40:247][ 69]LogSlate: Took 0.026915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.03.01-22.17.45:049][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.17.45:130][525]LogSlate: Window 'Cube' being destroyed
-[2019.03.01-22.17.45:133][525]LogSlate: Window 'Cube' being destroyed
-[2019.03.01-22.17.47:286][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.17.48:640][874]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Assets/brick.brick
-[2019.03.01-22.17.50:229][874]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2019.03.01-22.17.52:790][874]LogSlate: Took 0.025850 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.03.01-22.18.11:767][378]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.18.11:775][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/brick" FILE="../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset" SILENT=true
-[2019.03.01-22.18.12:020][378]LogSavePackage: Moving '../../../../../../Unreal Engine Projects/Mario/Saved/brickAD448C4348AD57367B63F5A3C4D196FA.tmp' to '../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset'
-[2019.03.01-22.18.13:119][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.13:206][465]BlueprintLog: New page: Compile brick
-[2019.03.01-22.18.14:934][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.18.14:943][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/brick" FILE="../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset" SILENT=true
-[2019.03.01-22.18.14:965][503]LogSavePackage: Moving '../../../../../../Unreal Engine Projects/Mario/Saved/brick707A6F8040D73547BF6AA59C289F491C.tmp' to '../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset'
-[2019.03.01-22.18.15:660][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.16:371][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.16:462][649]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.18.16:549][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.18.16:549][649]PIE: New page: PIE session: Map1 (2 mar 2019, 00:18:16)
-[2019.03.01-22.18.16:549][649]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.18.16:587][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037325s)
-[2019.03.01-22.18.16:588][649]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.18.16:588][649]LogPlayLevel: PIE: World Init took: (0.001550s)
-[2019.03.01-22.18.16:588][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.039144s)
-[2019.03.01-22.18.16:649][649]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.18.16:659][649]LogInit: FAudioDevice initialized.
-[2019.03.01-22.18.16:690][649]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.18.16:694][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.18.16
-[2019.03.01-22.18.16:694][649]LogWorld: Bringing up level for play took: 0.003174
-[2019.03.01-22.18.16:708][649]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0,597
-[2019.03.01-22.18.19:124][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.19:162][929]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.18.19:195][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.19:217][930]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.03.01-22.18.19:453][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.18.24:231][374]BlueprintLog: New page: Compile brick
-[2019.03.01-22.18.24:928][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.18.24:932][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/brick" FILE="../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset" SILENT=true
-[2019.03.01-22.18.24:955][409]LogSavePackage: Moving '../../../../../../Unreal Engine Projects/Mario/Saved/brickB9F1C16E41FB1C157D8AEFBB2A6AEDA8.tmp' to '../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset'
-[2019.03.01-22.18.25:802][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.26:356][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.26:456][566]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.18.26:481][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.18.26:481][566]PIE: New page: PIE session: Map1 (2 mar 2019, 00:18:26)
-[2019.03.01-22.18.26:481][566]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.18.26:493][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012423s)
-[2019.03.01-22.18.26:494][566]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.18.26:494][566]LogPlayLevel: PIE: World Init took: (0.000809s)
-[2019.03.01-22.18.26:494][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.013413s)
-[2019.03.01-22.18.26:529][566]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.18.26:538][566]LogInit: FAudioDevice initialized.
-[2019.03.01-22.18.26:569][566]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.18.26:573][566]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.18.26
-[2019.03.01-22.18.26:573][566]LogWorld: Bringing up level for play took: 0.003022
-[2019.03.01-22.18.26:586][566]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0,719
-[2019.03.01-22.18.30:915][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.30:947][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.18.30:979][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.31:020][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.03.01-22.18.31:886][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.31:986][193]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.18.32:006][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.18.32:006][193]PIE: New page: PIE session: Map1 (2 mar 2019, 00:18:32)
-[2019.03.01-22.18.32:006][193]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.18.32:048][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042532s)
-[2019.03.01-22.18.32:049][193]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.18.32:049][193]LogPlayLevel: PIE: World Init took: (0.000844s)
-[2019.03.01-22.18.32:049][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.043515s)
-[2019.03.01-22.18.32:084][193]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.18.32:093][193]LogInit: FAudioDevice initialized.
-[2019.03.01-22.18.32:127][193]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.18.32:130][193]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.18.32
-[2019.03.01-22.18.32:130][193]LogWorld: Bringing up level for play took: 0.002904
-[2019.03.01-22.18.32:144][193]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0,839
-[2019.03.01-22.18.34:048][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.34:084][418]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.18.34:114][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.34:154][421]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.03.01-22.18.34:444][450]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.18.39:280][884]BlueprintLog: New page: Compile brick
-[2019.03.01-22.18.40:888][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.41:288][ 82]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.18.41:313][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.18.41:313][ 82]PIE: New page: PIE session: Map1 (2 mar 2019, 00:18:41)
-[2019.03.01-22.18.41:313][ 82]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.18.41:318][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004499s)
-[2019.03.01-22.18.41:319][ 82]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.18.41:319][ 82]LogPlayLevel: PIE: World Init took: (0.000792s)
-[2019.03.01-22.18.41:319][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.005453s)
-[2019.03.01-22.18.41:350][ 82]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.18.41:358][ 82]LogInit: FAudioDevice initialized.
-[2019.03.01-22.18.41:389][ 82]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.18.41:393][ 82]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.18.41
-[2019.03.01-22.18.41:393][ 82]LogWorld: Bringing up level for play took: 0.003063
-[2019.03.01-22.18.41:407][ 82]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0,102
-[2019.03.01-22.18.48:020][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.48:055][872]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.18.48:088][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.48:124][875]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.03.01-22.18.48:887][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.18.48:962][975]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.18.48:982][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.18.48:982][975]PIE: New page: PIE session: Map1 (2 mar 2019, 00:18:48)
-[2019.03.01-22.18.48:982][975]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.18.48:987][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004934s)
-[2019.03.01-22.18.48:987][975]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.18.48:988][975]LogPlayLevel: PIE: World Init took: (0.000751s)
-[2019.03.01-22.18.48:988][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.005821s)
-[2019.03.01-22.18.49:030][975]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.18.49:038][975]LogInit: FAudioDevice initialized.
-[2019.03.01-22.18.49:067][975]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.18.49:071][975]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.18.49
-[2019.03.01-22.18.49:071][975]LogWorld: Bringing up level for play took: 0.003021
-[2019.03.01-22.18.49:085][975]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0,22
-[2019.03.01-22.18.55:336][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.55:369][722]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.18.55:401][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.18.55:442][725]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.03.01-22.18.56:145][804]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.19.00:932][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.19.00:935][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/brick" FILE="../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset" SILENT=true
-[2019.03.01-22.19.01:022][222]LogSavePackage: Moving '../../../../../../Unreal Engine Projects/Mario/Saved/brick79AC2BF244DFFB46E5692590437AB432.tmp' to '../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset'
-[2019.03.01-22.19.01:708][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.19.01:771][287]BlueprintLog: New page: Compile brick
-[2019.03.01-22.19.02:622][341]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.19.02:626][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/brick" FILE="../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset" SILENT=true
-[2019.03.01-22.19.02:649][341]LogSavePackage: Moving '../../../../../../Unreal Engine Projects/Mario/Saved/brick9AF691474C99D61CB57330AD1524FA2D.tmp' to '../../../../../../Unreal Engine Projects/Mario/Content/Assets/brick.uasset'
-[2019.03.01-22.19.03:413][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.19.04:214][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.19.04:290][518]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.19.04:315][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.19.04:316][518]PIE: New page: PIE session: Map1 (2 mar 2019, 00:19:04)
-[2019.03.01-22.19.04:316][518]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.19.04:320][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004433s)
-[2019.03.01-22.19.04:321][518]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.19.04:321][518]LogPlayLevel: PIE: World Init took: (0.000668s)
-[2019.03.01-22.19.04:321][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.005212s)
-[2019.03.01-22.19.04:350][518]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.19.04:359][518]LogInit: FAudioDevice initialized.
-[2019.03.01-22.19.04:392][518]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.19.04:396][518]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.19.04
-[2019.03.01-22.19.04:396][518]LogWorld: Bringing up level for play took: 0.002978
-[2019.03.01-22.19.04:409][518]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0,896
-[2019.03.01-22.19.10:920][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.19.10:953][296]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.19.10:985][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.19.11:026][299]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.03.01-22.19.11:910][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.19.11:984][414]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.19.12:005][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.19.12:005][414]PIE: New page: PIE session: Map1 (2 mar 2019, 00:19:12)
-[2019.03.01-22.19.12:005][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.19.12:010][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004510s)
-[2019.03.01-22.19.12:010][414]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.19.12:010][414]LogPlayLevel: PIE: World Init took: (0.000731s)
-[2019.03.01-22.19.12:010][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.005382s)
-[2019.03.01-22.19.12:044][414]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.19.12:052][414]LogInit: FAudioDevice initialized.
-[2019.03.01-22.19.12:089][414]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.19.12:092][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.19.12
-[2019.03.01-22.19.12:093][414]LogWorld: Bringing up level for play took: 0.002871
-[2019.03.01-22.19.12:106][414]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0,801
-[2019.03.01-22.19.18:069][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.19.18:106][126]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.19.18:138][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.19.18:171][128]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.03.01-22.19.18:771][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.19.18:871][212]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.01-22.19.18:920][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.01-22.19.18:920][212]PIE: New page: PIE session: Map1 (2 mar 2019, 00:19:18)
-[2019.03.01-22.19.18:920][212]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
-[2019.03.01-22.19.18:925][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004905s)
-[2019.03.01-22.19.18:925][212]LogAIModule: Creating AISystem for world Map1
-[2019.03.01-22.19.18:925][212]LogPlayLevel: PIE: World Init took: (0.000731s)
-[2019.03.01-22.19.18:925][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.005757s)
-[2019.03.01-22.19.18:961][212]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.01-22.19.18:970][212]LogInit: FAudioDevice initialized.
-[2019.03.01-22.19.19:008][212]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.03.01-22.19.19:011][212]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.01-23.19.19
-[2019.03.01-22.19.19:011][212]LogWorld: Bringing up level for play took: 0.002818
-[2019.03.01-22.19.19:024][212]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0,281
-[2019.03.01-22.19.30:130][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.19.30:166][535]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.03.01-22.19.30:197][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.01-22.19.30:230][537]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.03.01-22.19.38:089][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
-[2019.03.01-22.19.40:239][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.01-22.19.43:092][698]LogSlate: Window 'Save Content' being destroyed
-[2019.03.01-22.19.43:568][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.19.43:622][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.01-22.19.43:630][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../Unreal Engine Projects/Mario/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.03.01-22.19.43:781][752]LogSavePackage: Moving '../../../../../../Unreal Engine Projects/Mario/Saved/Map16ACFF0C741A7CBAD86BE2EA24B1B2DFA.tmp' to '../../../../../../Unreal Engine Projects/Mario/Content/Maps/Map1.umap'
-[2019.03.01-22.19.43:890][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1_BuiltData" FILE="../../../../../../Unreal Engine Projects/Mario/Content/Maps/Map1_BuiltData.uasset" SILENT=true
-[2019.03.01-22.19.43:992][752]LogSavePackage: Moving '../../../../../../Unreal Engine Projects/Mario/Saved/Map1_BuiltDataDB55F94641E510CDFB902AA12220D282.tmp' to '../../../../../../Unreal Engine Projects/Mario/Content/Maps/Map1_BuiltData.uasset'
-[2019.03.01-22.19.48:401][268]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content' is outside repository
-[2019.03.01-22.19.51:735][268]LogSlate: Window 'Submit Files' being destroyed
-[2019.03.01-22.19.53:638][268]LogSourceControl: commit successful: [master 7484d57] aaa
-[2019.03.01-22.19.53:715][268]SourceControl: [master 7484d57] aaa
-[2019.03.01-22.19.53:715][268]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
-[2019.03.01-22.19.53:719][268]SourceControl: Commited [master 7484d57] aaa.
+[2019.03.04-10.50.02:583][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.04-10.50.02:583][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.04-10.50.02:633][  0]LogHAL: Display: Platform has ~ 8 GB [8526303232 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.04-10.50.02:633][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.04-10.50.02:633][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.04-10.50.02:634][  0]LogInit: Computer: DEAD
+[2019.03.04-10.50.02:634][  0]LogInit: User: DEAD
+[2019.03.04-10.50.02:634][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.04-10.50.02:634][  0]LogInit: High frequency timer resolution =3.124091 MHz
+[2019.03.04-10.50.02:634][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.04-10.50.02:634][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.04-10.50.02:634][  0]LogMemory: Process Physical Memory: 101.00 MB used, 101.00 MB peak
+[2019.03.04-10.50.02:634][  0]LogMemory: Process Virtual Memory: 92.46 MB used, 92.46 MB peak
+[2019.03.04-10.50.02:634][  0]LogMemory: Physical Memory: 4885.02 MB used,  3246.29 MB free, 8131.32 MB total
+[2019.03.04-10.50.02:634][  0]LogMemory: Virtual Memory: 497.39 MB used,  3246.29 MB free, 134217728.00 MB total
+[2019.03.04-10.50.02:646][  0]LogInit: Using OS detected language (pl-PL).
+[2019.03.04-10.50.02:646][  0]LogInit: Using OS detected locale (pl-PL).
+[2019.03.04-10.50.02:647][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2019.03.04-10.50.02:648][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2019.03.04-10.50.02:648][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.04-10.50.02:674][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.04-10.50.02:674][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.04-10.50.02:837][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.04-10.50.02:837][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.04-10.50.02:850][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2019.03.04-10.50.02:851][  0]LogD3D11RHI:       3052/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.03.04-10.50.02:852][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.04-10.50.02:852][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.04-10.50.02:852][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.04-10.50.02:856][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.04-10.50.02:856][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.04-10.50.02:856][  0]LogWindows: EnumDisplayDevices:
+[2019.03.04-10.50.02:856][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2019.03.04-10.50.02:856][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.03.04-10.50.02:856][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.03.04-10.50.02:857][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.03.04-10.50.02:857][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.03.04-10.50.02:857][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.03.04-10.50.02:857][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2019.03.04-10.50.02:857][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2019.03.04-10.50.02:857][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.2.1 (internal:23.20.15017.3010, unified:23.20.15017.3010)
+[2019.03.04-10.50.02:857][  0]LogD3D11RHI:      Driver Date: 1-31-2018
+[2019.03.04-10.50.02:857][  0]LogRHI: Texture pool is 2136 MB (70% of 3052 MB)
+[2019.03.04-10.50.02:875][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.04-10.50.02:887][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.03.04-10.50.02:888][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Unreal Engine Projects/Mario/Intermediate/Shaders/WorkingDirectory/12944/).
+[2019.03.04-10.50.02:889][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DEAD/AppData/Local/Temp/UnrealShaderWorkingDir/9D14EC9041644B39581CC696D1022CFC/'.
+[2019.03.04-10.50.03:128][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.04-10.50.03:142][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.04-10.50.03:156][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.04-10.50.03:170][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.04-10.50.03:184][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.04-10.50.03:198][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.04-10.50.03:212][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.04-10.50.03:225][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.04-10.50.03:231][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:319][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.04-10.50.03:332][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.04-10.50.03:392][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.04-10.50.03:392][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.04-10.50.03:417][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.04-10.50.03:417][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.04-10.50.03:430][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.04-10.50.03:443][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.04-10.50.03:456][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.04-10.50.03:470][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.04-10.50.03:479][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.04-10.50.03:479][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.04-10.50.03:519][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.04-10.50.03:519][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.04-10.50.03:519][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.04-10.50.04:302][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.04-10.50.04:375][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/DEAD/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.04-10.50.04:375][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/DEAD/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.04-10.50.04:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Engine Projects/Mario/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.04-10.50.04:375][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.04-10.50.04:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Engine Projects/Mario/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.04-10.50.04:375][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.04-10.50.04:393][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.04-10.50.04:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/DEAD/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.04-10.50.04:405][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.04-10.50.04:405][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.04-10.50.04:425][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.04-10.50.04:427][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.04-10.50.04:449][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.04-10.50.04:833][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2019.03.04-10.50.05:211][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.04-10.50.05:496][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.04-10.50.05:498][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.04-10.50.05:498][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.04-10.50.05:498][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.04-10.50.05:498][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.04-10.50.05:556][  0]LogNetVersion: Mario 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3829394959)
+[2019.03.04-10.50.07:041][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.106205 seconds
+[2019.03.04-10.50.07:047][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.04-10.50.07:047][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.04-10.50.07:047][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.04-10.50.21:764][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.04-10.50.21:777][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.04-10.50.22:542][  0]SourceControl: Source control is disabled
+[2019.03.04-10.50.24:457][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.04-10.50.24:510][  0]LogOcInput: OculusInput pre-init called
+[2019.03.04-10.50.24:692][  0]LogEngine: Initializing Engine...
+[2019.03.04-10.50.24:693][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.04-10.50.24:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.04-10.50.24:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.04-10.50.24:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.04-10.50.24:729][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.04-10.50.25:703][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.04-10.50.25:723][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.04-10.50.25:730][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.04-10.50.25:741][  0]LogInit: FAudioDevice initialized.
+[2019.03.04-10.50.25:741][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.04-10.50.25:883][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/DEAD/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.04-10.50.25:893][  0]LogInit: Texture streaming: Enabled
+[2019.03.04-10.50.25:905][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.04-10.50.25:914][  0]LogInit: Transaction tracking system initialized
+[2019.03.04-10.50.25:928][  0]BlueprintLog: New page: Editor Load
+[2019.03.04-10.50.26:066][  0]LocalizationService: Localization service is disabled
+[2019.03.04-10.50.27:200][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.04-10.50.27:200][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.04-10.50.27:200][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.04-10.50.27:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.04-10.50.27:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.04-10.50.27:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.04-10.50.27:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.04-10.50.27:212][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Content/' took 0.02s
+[2019.03.04-10.50.27:452][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Engine Projects/Mario/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.04-10.50.27:453][  0]LightingResults: New page: Lighting Build
+[2019.03.04-10.50.27:454][  0]MapCheck: New page: Map Check
+[2019.03.04-10.50.27:454][  0]LightingResults: New page: Lighting Build
+[2019.03.04-10.50.30:320][  0]LogAIModule: Creating AISystem for world Map1
+[2019.03.04-10.50.30:446][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.04-10.50.30:484][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.04-10.50.30:531][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46,553ms to complete.
+[2019.03.04-10.50.30:531][  0]LogFileHelpers: Loading map 'Map1' took 3.079
+[2019.03.04-10.50.30:630][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.04-10.50.31:566][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-10.50.31:575][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-10.50.31:584][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-10.50.31:592][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-10.50.31:640][  0]LogCollectionManager: Loaded 0 collections in 0.000707 seconds
+[2019.03.04-10.50.31:731][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Saved/Collections/' took 0.01s
+[2019.03.04-10.50.31:731][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Content/Developers/DEAD/Collections/' took 0.01s
+[2019.03.04-10.50.31:731][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Projects/Mario/Content/Collections/' took 0.01s
+[2019.03.04-10.50.31:731][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.04-10.50.31:742][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2581 classes and 608 folders.
+[2019.03.04-10.50.31:826][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.04-10.50.32:758][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.04-10.50.32:813][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.04-10.50.33:280][  0]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.04-10.50.33:283][  0]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.04-10.50.33:367][  0]LogSlate: Took 0.024949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.04-10.50.33:799][  0]LogRenderer: Reallocating scene render targets to support 748x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.04-10.50.34:256][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.04-10.50.34:256][  0]LogLoad: (Engine Initialization) Total time: 33.70 seconds
+[2019.03.04-10.50.34:256][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.04-10.50.34:313][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.04-10.50.34:455][  0]LogSlate: Took 0.026356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.04-10.50.34:547][  2]LogAssetRegistry: Asset discovery search completed in 29.7352 seconds
+[2019.03.04-10.50.34:576][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.04-10.50.34:576][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2019.03.04-10.50.37:473][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-10.50.37:556][351]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.04-10.50.37:586][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.04-10.50.37:651][351]PIE: New page: PIE session: Map1 (4 mar 2019, 12:50:37)
+[2019.03.04-10.50.37:651][351]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
+[2019.03.04-10.50.37:675][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024079s)
+[2019.03.04-10.50.37:676][351]LogAIModule: Creating AISystem for world Map1
+[2019.03.04-10.50.37:676][351]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2019.03.04-10.50.37:676][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.025149s)
+[2019.03.04-10.50.37:709][351]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.04-10.50.37:718][351]LogInit: FAudioDevice initialized.
+[2019.03.04-10.50.37:836][351]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.03.04-10.50.37:878][351]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2019.03.04-11.50.37
+[2019.03.04-10.50.37:891][351]LogWorld: Bringing up level for play took: 0.039656
+[2019.03.04-10.50.37:960][351]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.03.04-10.50.38:124][351]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0,286
+[2019.03.04-10.51.06:915][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.04-10.51.44:158][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-10.51.44:201][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.04-10.51.44:237][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.04-10.51.44:258][531]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.03.04-10.53.16:137][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.04-10.53.20:942][570]SourceControl: fatal: D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content: 'D:/Unreal Engine/Nowy folder/UE_4.20/Engine/Content' is outside repository
+[2019.03.04-10.53.21:085][570]EditorErrors: Warning: No assets to check in!
